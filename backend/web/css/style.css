@@ -1,0 +1,152 @@
+body {
+  /* add sorting icons to gridview sort links */
+}
+body > .header .logo {
+  font-family: inherit;
+}
+body > .header .navbar .nav > li > a > .badge {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-size: 75%;
+}
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .glyphicon,
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .fa,
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .ion {
+  background: none;
+  color: inherit;
+}
+body .user-panel > .info {
+  padding-left: 10px;
+}
+body a.asc:after,
+body a.desc:after {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  padding-left: 5px;
+}
+body a.asc:after {
+  content: "\e151";
+}
+body a.desc:after {
+  content: "\e152";
+}
+body .sort-numerical a.asc:after {
+  content: "\e153";
+}
+body .sort-numerical a.desc:after {
+  content: "\e154";
+}
+body .sort-ordinal a.asc:after {
+  content: "\e155";
+}
+body .sort-ordinal a.desc:after {
+  content: "\e156";
+}
+body .grid-view th {
+  white-space: nowrap;
+}
+body .hint-block {
+  display: block;
+  margin-top: 5px;
+  color: #999;
+}
+body .error-summary {
+  color: #a94442;
+  background: #fdf7f7;
+  border-left: 3px solid #eed3d7;
+  padding: 10px 20px;
+  margin: 0 0 15px 0;
+}
+body .table .bootstrap-datetimepicker-widget {
+  z-index: 9999;
+}
+#order-table td, #myModal table td, #myModal table th{
+    border: 1px solid #ddd;
+}
+#order-table td, #currency-table td{
+    max-width: 150px;
+    word-wrap: break-word;
+}
+#order-table th{
+    white-space: pre-wrap;
+}
+#order-table .fa.sended{
+    color: rgba(120, 205, 81, 1)
+}
+.select-status{
+    padding: 3px;
+    margin: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color: #888;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+#order-table a {
+    color:#383e4b;
+    display: block;
+}
+#order-table .init-amount {
+    color:#9c9c9c;
+}
+#order-table tr.status--1, #order-table tr.status-0{
+    background-color: rgba(255, 69, 72, 0.15);
+}
+#order-table tr.status-1, #order-table tr.status-2{
+    background-color: rgba(54, 169, 225, 0.15);
+}
+#order-table tr.status-3{
+    background-color: rgba(225, 223, 54, 0.5)
+}
+#order-table tr.status-4{
+    background-color: rgba(120, 205, 81, 0.15);
+}
+.select-status.status--1{
+    background-color: #fff;
+    color:#000;
+}
+ .select-status.status-0{
+    background-color:  rgba(255, 69, 72, 0.70);
+    color:#fff;
+}
+.select-status.status-1{
+    background-color: rgba(54, 169, 225, 0.70);
+    color:#fff;
+}
+.select-status.status-2{
+    background-color: rgba(120, 205, 81, 0.70);
+    color:#fff;
+}
+ .select-status.status-3{
+    background-color: rgba(36, 34, 4, 0.8);
+    color:#fff;
+}
+.select-status.status-4{
+    background-color:  rgba(120, 205, 81, 0.70);
+    color:#fff;
+}
+
+.dual.select-status.status-0{
+    background-color:  rgba(255, 69, 72, 0.70);
+    color:#fff;
+}
+.dual.select-status.status-1{
+    background-color: rgba(0, 193, 110, 0.70);
+    color:#fff;
+}
